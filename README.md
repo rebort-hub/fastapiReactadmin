@@ -125,6 +125,6 @@ fastapiReactadmin/            # Monorepo 全栈工程
 ## 🙏 鸣谢
 
 - 后端：[FastAPI](https://fastapi.tiangolo.com/) · [Pydantic](https://docs.pydantic.dev/) · [SQLAlchemy](https://www.sqlalchemy.org/) · [APScheduler](https://github.com/agronholm/apscheduler)
-- 前端：[TypeScript](https://www.typescriptlang.org/) · [Vite](https://vitejs.dev/) · [Element Plus](https://element-plus.org/)
+- 前端：[TypeScript](https://www.typescriptlang.org/) · [Vite](https://vitejs.dev/) · [Ant Design](https://ant.design/index-cn)
 - AI：[Agno](https://github.com/agno-agi/agno)
 - soybean [Soybean](https://github.com/honghuangdc) 
