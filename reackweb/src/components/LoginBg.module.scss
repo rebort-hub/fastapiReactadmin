@@ -1,0 +1,90 @@
+.login-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  background: linear-gradient(180deg, #f3f6ff 0%, #eef2ff 45%, #f5f7ff 100%);
+}
+
+.login-bg.dark {
+  background: linear-gradient(180deg, #141824 0%, #171c28 45%, #121620 100%);
+}
+
+.shape {
+  position: absolute;
+  pointer-events: none;
+}
+
+.shape-circle {
+  top: 72px;
+  left: 10%;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgb(100 108 255 / 8%);
+}
+
+.shape-ring {
+  top: 120px;
+  left: 22%;
+  width: 36px;
+  height: 36px;
+  border: 2px solid rgb(100 108 255 / 12%);
+  border-radius: 50%;
+}
+
+.shape-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgb(100 108 255 / 18%);
+}
+
+.shape-ml {
+  top: 38%;
+  left: 8%;
+}
+
+.shape-mr {
+  top: 52%;
+  right: 12%;
+}
+
+.shape-square {
+  bottom: 18%;
+  left: 14%;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  background: rgb(100 108 255 / 10%);
+  transform: rotate(12deg);
+}
+
+.shape-arc {
+  top: -120px;
+  right: -80px;
+  width: 320px;
+  height: 320px;
+  border: 2px solid rgb(100 108 255 / 10%);
+  border-radius: 50%;
+}
+
+.dark .shape-circle {
+  background: rgb(100 108 255 / 12%);
+}
+
+.dark .shape-ring {
+  border-color: rgb(100 108 255 / 16%);
+}
+
+.dark .shape-dot {
+  background: rgb(100 108 255 / 22%);
+}
+
+.dark .shape-square {
+  background: rgb(100 108 255 / 14%);
+}
+
+.dark .shape-arc {
+  border-color: rgb(100 108 255 / 14%);
+}

@@ -1,0 +1,581 @@
+const page: App.I18n.Schema['translation']['page'] = {
+  userCenter: {
+    avatarSizeError: '头像大小不能超过 2MB',
+    avatarTypeError: '只能上传图片文件',
+    avatarUploadSuccess: '头像已上传，请保存基本设置以同步资料',
+    basicSettings: '基本设置',
+    confirmPassword: '确认新密码',
+    dept: '部门',
+    github: 'Github',
+    githubLink: 'rebort-hub/fastapiReactadmin',
+    form: {
+      confirmPassword: '请再次输入新密码',
+      newPassword: '请输入新密码',
+      oldPassword: '请输入当前密码'
+    },
+    greeting: {
+      afternoon: '下午好',
+      evening: '晚上好',
+      forenoon: '上午好',
+      morning: '早上好',
+      night: '很晚了，早点休息',
+      noon: '中午好'
+    },
+    newPassword: '新密码',
+    oldPassword: '当前密码',
+    passwordChangeSuccess: '密码修改成功，请重新登录',
+    passwordMismatch: '两次输入的密码不一致',
+    passwordSettings: '更改密码',
+    profileSaveSuccess: '个人资料已保存',
+    roles: '角色',
+    superUserTip: '超级管理员不能修改个人信息'
+  },
+  about: {
+    devDep: '开发依赖',
+    introduction: `Fastapireactadmin 是一个优雅且功能强大的后台管理模板，基于最新的前端技术栈，包括 React19.0, Vite6, TypeScript,ReactRouter7,Redux/toolkit 和 UnoCSS。它内置了丰富的主题配置和组件，代码规范严谨，实现了自动化的文件路由系统。此外，为您提供了一站式的后台管理解决方案，无需额外配置，开箱即用。同样是一个快速学习前沿技术的最佳实践。`,
+    prdDep: '生产依赖',
+    projectInfo: {
+      githubLink: 'Github 地址',
+      latestBuildTime: '最新构建时间',
+      previewLink: '预览地址',
+      title: '项目信息',
+      version: '版本'
+    },
+    title: '关于'
+  },
+  function: {
+    multiTab: {
+      backTab: '返回 function_tab',
+      routeParam: '路由参数'
+    },
+    request: {
+      repeatedError: '重复请求错误',
+      repeatedErrorMsg1: '自定义请求错误 1',
+      repeatedErrorMsg2: '自定义请求错误 2',
+      repeatedErrorOccurOnce: '重复请求错误只出现一次'
+    },
+    tab: {
+      tabOperate: {
+        addMultiTab: '添加多标签页',
+        addMultiTabDesc1: '跳转到多标签页页面',
+        addMultiTabDesc2: '跳转到多标签页页面(带有查询参数)',
+        addTab: '添加标签页',
+        addTabDesc: '跳转到关于页面',
+        closeAboutTab: '关闭"关于"标签页',
+        closeCurrentTab: '关闭当前标签页',
+        closeTab: '关闭标签页',
+        title: '标签页操作'
+      },
+      tabTitle: {
+        change: '修改',
+        changeTitle: '修改标题',
+        reset: '重置',
+        resetTitle: '重置标题',
+        title: '标签页标题'
+      }
+    },
+    toggleAuth: {
+      adminOrUserVisible: '管理员和用户可见',
+      adminVisible: '管理员可见',
+      authHook: '权限钩子函数 `hasAuth`',
+      superAdminVisible: '超级管理员可见',
+      toggleAccount: '切换账号'
+    }
+  },
+  home: {
+    activeNotices: '启用公告',
+    browserDistribution: '浏览器分布',
+    dailyLoginTotal: '每日登录总量',
+    dailyOperationTotal: '每日操作总量',
+    dataStats: '数据统计',
+    deptCount: '部门数量',
+    greeting: '{{greeting}}，{{userName}}，祝你开心每一天！',
+    logCount: '操作日志',
+    logTrendLogin: '登录日志',
+    logTrendOperation: '操作日志',
+    logTrendTitle: '系统日志趋势',
+    logTypeDistribution: '日志类型分布',
+    loginAnalysisTitle: '登录统计分析',
+    message: '公告',
+    moduleDistribution: '模块分布统计',
+    moreNotices: '查看更多',
+    noData: '暂无数据',
+    noNotices: '暂无公告',
+    noticeCount: '公告数量',
+    noticeList: '系统公告',
+    onlineCount: '在线用户',
+    operationCount: '操作次数',
+    operationStatsTitle: '操作统计',
+    operationTypeDistribution: '操作类型分布',
+    operationUsers: '操作用户数',
+    passRate: '通过率',
+    projectCount: '用户',
+    projectNews: {
+      title: '系统公告'
+    },
+    recentOperationTrend: '近7天操作趋势统计',
+    regionTop10: '登录地区 Top10',
+    requestMethodDistribution: '请求方法分布',
+    roleCount: '角色数量',
+    subtitle: '基于 FastAPI + React 构建的企业级中后台解决方案。',
+    superAdmin: '超级管理员',
+    systemAudit: '系统审计',
+    systemSummary: '当前系统共 {{userCount}} 名用户，{{onlineCount}} 人在线，累计 {{logCount}} 条日志',
+    tabAll: '全部',
+    tabLogin: '登录日志',
+    tabOperation: '操作日志',
+    todayLogin: '今日登录',
+    todayOperation: '今日操作',
+    todo: '在线',
+    totalExecutions: '执行总数',
+    trendFailure: '失败数',
+    trendSuccess: '成功数',
+    userCount: '用户总数',
+    viewDetail: '查看详情',
+    viewMore: '去查看',
+    visitCount: '访问量',
+    welcomeDesc: '今天又是充满能量的一天，祝你工作顺利！',
+    welcomeTitle: 'Hi，{{userName}}，欢迎回来！'
+  },
+  login: {
+    brand: {
+      subtitle: 'FastApi+React，一款兼顾美学而设计的企业级管理后台脚手架'
+    },
+    bindWeChat: {
+      title: '绑定微信'
+    },
+    codeLogin: {
+      getCode: '获取验证码',
+      imageCodePlaceholder: '请输入图片验证码',
+      reGetCode: '{{time}}秒后重新获取',
+      sendCodeSuccess: '验证码发送成功',
+      title: '验证码登录'
+    },
+    common: {
+      back: '返回',
+      codeLogin: '验证码登录',
+      codePlaceholder: '请输入验证码',
+      confirm: '确定',
+      confirmPasswordPlaceholder: '请再次输入密码',
+      loginOrRegister: '登录 / 注册',
+      loginSuccess: '登录成功',
+      passwordPlaceholder: '请输入密码',
+      phonePlaceholder: '请输入手机号',
+      userNamePlaceholder: '请输入用户名',
+      validateSuccess: '验证成功',
+      welcomeBack: '欢迎回来，{{userName}} ！'
+    },
+    pwdLogin: {
+      accountPlaceholder: '请输入账号',
+      admin: '管理员',
+      forgetPassword: '忘记密码？',
+      forgetPasswordLink: '忘记密码',
+      loginButton: '登录',
+      loginValidity: '登录有效期 7 天',
+      noAccountRegister: '还没有账号？注册',
+      otherAccountLogin: '其他账号登录',
+      otherLoginMode: '其他登录方式',
+      register: '注册账号',
+      rememberMe: '记住我',
+      rememberPassword: '记住密码',
+      superAdmin: '超级管理员',
+      title: '密码登录',
+      user: '普通用户',
+      welcomeDesc: '输入您的账号和密码登录',
+      welcomeTitle: '欢迎回来'
+    },
+    register: {
+      agreement: '我已经仔细阅读并接受',
+      policy: '《隐私权政策》',
+      protocol: '《用户协议》',
+      title: '注册账号'
+    },
+    resetPwd: {
+      title: '重置密码'
+    },
+    quickLogin: {
+      comingSoon: '{{provider}} 登录即将开放',
+      gitee: 'Gitee',
+      github: 'GitHub',
+      qq: 'QQ',
+      title: '快捷登录',
+      wechat: '微信'
+    },
+  },
+  manage: {
+    common: {
+      status: {
+        disable: '禁用',
+        enable: '启用'
+      }
+    },
+    menu: {
+      activeMenu: '高亮的菜单',
+      addChildMenu: '新增子菜单',
+      addMenu: '新增菜单',
+      button: '按钮',
+      buttonCode: '按钮编码',
+      buttonDesc: '按钮描述',
+      constant: '常量路由',
+      editMenu: '编辑菜单',
+      fixedIndexInTab: '固定在页签中的序号',
+      form: {
+        activeMenu: '请选择高亮的菜单的路由名称',
+        button: '请选择是否按钮',
+        buttonCode: '请输入按钮编码',
+        buttonDesc: '请输入按钮描述',
+        fixedIndexInTab: '请输入固定在页签中的序号',
+        fixedInTab: '请选择是否固定在页签中',
+        hideInMenu: '请选择是否隐藏菜单',
+        home: '请选择首页',
+        href: '请输入外链',
+        i18nKey: '请输入国际化key',
+        icon: '请输入图标',
+        keepAlive: '请选择是否缓存路由',
+        layout: '请选择布局组件',
+        localIcon: '请选择本地图标',
+        menuName: '请输入菜单名称',
+        menuStatus: '请选择菜单状态',
+        menuType: '请选择菜单类型',
+        multiTab: '请选择是否支持多标签',
+        order: '请输入排序',
+        page: '请选择页面组件',
+        parent: '请选择父级菜单',
+        pathParam: '请输入路径参数',
+        queryKey: '请输入路由参数Key',
+        queryValue: '请输入路由参数Value',
+        routeName: '请输入路由名称',
+        routePath: '请输入路由路径'
+      },
+      hideInMenu: '隐藏菜单',
+      home: '首页',
+      href: '外链',
+      i18nKey: '国际化key',
+      icon: '图标',
+      iconType: {
+        iconify: 'iconify图标',
+        local: '本地图标'
+      },
+      iconTypeTitle: '图标类型',
+      id: 'ID',
+      keepAlive: '缓存路由',
+      layout: '布局',
+      localIcon: '本地图标',
+      menuName: '菜单名称',
+      menuStatus: '菜单状态',
+      menuType: '菜单类型',
+      multiTab: '支持多页签',
+      order: '排序',
+      page: '页面组件',
+      parent: '父级菜单',
+      parentId: '父级菜单ID',
+      pathParam: '路径参数',
+      query: '路由参数',
+      routeName: '路由名称',
+      routePath: '路由路径',
+      title: '菜单列表',
+      type: {
+        directory: '目录',
+        menu: '菜单'
+      }
+    },
+    role: {
+      addRole: '新增角色',
+      buttonAuth: '按钮权限',
+      dataAuth: '数据授权',
+      editRole: '编辑角色',
+      permissionAssign: '分配权限',
+      form: {
+        roleCode: '请输入角色编码',
+        roleDesc: '请输入角色描述',
+        roleName: '请输入角色名称',
+        roleStatus: '请选择角色状态'
+      },
+      menuAuth: '菜单授权',
+      roleCode: '角色编码',
+      roleDesc: '角色描述',
+      roleName: '角色名称',
+      roleStatus: '角色状态',
+      title: '角色列表'
+    },
+    position: {
+      addPosition: '新增岗位',
+      createdTime: '创建时间',
+      editPosition: '编辑岗位',
+      form: {
+        order: '请输入排序',
+        positionDesc: '请输入岗位描述',
+        positionName: '请输入岗位名称',
+        positionStatus: '请选择岗位状态'
+      },
+      order: '排序',
+      positionDesc: '岗位描述',
+      positionName: '岗位名称',
+      positionStatus: '岗位状态',
+      title: '岗位列表'
+    },
+    dept: {
+      addChildDept: '新增子部门',
+      addDept: '新增部门',
+      collapseAll: '收起全部',
+      deptCode: '部门编码',
+      deptDesc: '备注',
+      deptName: '部门名称',
+      deptStatus: '状态',
+      editDept: '编辑部门',
+      email: '邮箱',
+      expandAll: '展开全部',
+      form: {
+        deptCode: '请输入部门编码',
+        deptCodeInvalid: '字母开头，2-16位字母/数字/下划线',
+        deptDesc: '请输入备注',
+        deptName: '请输入部门名称',
+        deptStatus: '请选择状态',
+        email: '请输入邮箱',
+        leader: '请输入负责人',
+        order: '请输入排序',
+        parentDept: '请选择上级部门',
+        phone: '请输入手机号'
+      },
+      leader: '负责人',
+      order: '排序',
+      parentDept: '上级部门',
+      phone: '手机号',
+      title: '部门列表'
+    },
+    dict: {
+      addDictData: '新增字典数据',
+      addDictType: '新增字典类型',
+      dictData: '字典数据',
+      dictDataTitle: '字典数据',
+      dictDesc: '描述',
+      dictLabel: '字典标签',
+      dictName: '字典名称',
+      dictSort: '排序',
+      dictStatus: '状态',
+      dictType: '字典类型',
+      dictValue: '字典键值',
+      editDictData: '编辑字典数据',
+      editDictType: '编辑字典类型',
+      form: {
+        dictDesc: '请输入描述',
+        dictLabel: '请输入字典标签',
+        dictName: '请输入字典名称',
+        dictStatus: '请选择状态',
+        dictType: '请输入字典类型',
+        dictTypeInvalid: '小写字母开头，仅含小写字母、数字、下划线',
+        dictValue: '请输入字典键值'
+      },
+      isDefault: '是否默认',
+      title: '字典类型'
+    },
+    online: {
+      clearAll: '强退所有',
+      clearAllConfirm: '确认强退所有在线用户吗？',
+      clearSuccess: '已强退所有在线用户',
+      form: {
+        ipaddr: '请输入登录 IP',
+        loginLocation: '请输入登录地点',
+        userName: '请输入用户名称'
+      },
+      ipaddr: '登录 IP',
+      kick: '强退',
+      kickConfirm: '确认强退该用户吗？',
+      kickSuccess: '强退成功',
+      loginLocation: '登录地点',
+      loginTime: '登录时间',
+      loginType: '登录类型',
+      nickName: '用户昵称',
+      os: '操作系统',
+      sessionId: '会话编号',
+      title: '在线用户',
+      userName: '用户名称'
+    },
+    log: {
+      createdTime: '创建时间',
+      form: {
+        logType: '请选择日志类型',
+        requestPath: '请输入请求路径'
+      },
+      logDetail: '日志详情',
+      logType: '日志类型',
+      loginLocation: '登录地点',
+      processTime: '耗时',
+      requestIp: '请求 IP',
+      requestMethod: '请求方法',
+      requestPath: '请求路径',
+      requestPayload: '请求体',
+      responseCode: '响应状态',
+      responseJson: '响应体',
+      title: '日志管理',
+      typeLogin: '登录',
+      typeOperation: '操作',
+      view: '详情'
+    },
+    notice: {
+      addNotice: '新增公告',
+      createdTime: '创建时间',
+      description: '描述',
+      editNotice: '编辑公告',
+      form: {
+        description: '请输入描述',
+        noticeContent: '请输入公告内容',
+        noticeStatus: '请选择状态',
+        noticeTitle: '请输入公告标题',
+        noticeType: '请选择公告类型'
+      },
+      noticeContent: '公告内容',
+      noticeDetail: '公告详情',
+      noticeStatus: '状态',
+      noticeTitle: '公告标题',
+      noticeType: '公告类型',
+      title: '公告管理',
+      typeAnnouncement: '公告',
+      typeNotice: '通知',
+      updatedTime: '更新时间',
+      view: '详情'
+    },
+    resource: {
+      batchDeleteConfirm: '确认删除选中的 {{count}} 项吗？',
+      breadcrumbTip: '点击路径可快速返回上级目录',
+      copy: '复制',
+      copySuccess: '复制成功',
+      createDir: '新建文件夹',
+      createDirSuccess: '文件夹创建成功',
+      createdTime: '创建时间',
+      currentPath: '当前路径',
+      deleteConfirm: '确认删除 {{name}} 吗？',
+      download: '下载',
+      export: '导出',
+      exportSuccess: '导出成功',
+      fileName: '名称',
+      fileSize: '大小',
+      form: {
+        dirName: '请输入文件夹名称',
+        keyword: '请输入文件名或目录名',
+        newName: '请输入新名称',
+        targetDir: '留空表示根目录，如 images/backup'
+      },
+      keyword: '关键词',
+      modifiedTime: '修改时间',
+      move: '移动',
+      moveSuccess: '移动成功',
+      overwrite: '覆盖已存在的同名文件',
+      rename: '重命名',
+      renameSuccess: '重命名成功',
+      root: '资源根目录',
+      selectFile: '请选择要上传的文件',
+      showHidden: '显示隐藏文件',
+      targetDir: '目标目录',
+      title: '资源管理',
+      transferSources: '待操作文件',
+      upload: '上传文件',
+      uploadHint: '点击或拖拽文件到此处上传',
+      uploadSuccess: '上传成功'
+    },
+    server: {
+      cpu: 'CPU 使用情况',
+      cpuNum: '核心数',
+      cpuSys: '系统使用率',
+      cpuUsed: '用户使用率',
+      diskFree: '可用',
+      diskName: '盘符名称',
+      diskPath: '盘符路径',
+      disks: '磁盘使用情况',
+      diskTotal: '总大小',
+      diskUsage: '使用率',
+      diskUsed: '已用',
+      fsType: '文件系统',
+      hostIp: '服务器 IP',
+      hostName: '服务器名称',
+      memory: '内存使用情况',
+      memFree: '空闲内存',
+      memTotal: '总内存',
+      memUsed: '已用内存',
+      osArch: '系统架构',
+      osName: '操作系统',
+      projectPath: '项目路径',
+      pyHome: '安装路径',
+      pyMemory: 'Python 内存占用',
+      pyName: 'Python 名称',
+      pyRunTime: '运行时长',
+      pyStart: '启动时间',
+      python: 'Python 运行环境',
+      pyVersion: 'Python 版本',
+      sysInfo: '服务器基本信息',
+      title: '服务器监控'
+    },
+    cache: {
+      aof: 'AOF',
+      aofOff: '关闭',
+      aofOn: '开启',
+      cacheContent: '缓存内容',
+      cacheKey: '缓存键名',
+      cacheList: '缓存列表',
+      cacheName: '缓存名称',
+      cacheValue: '缓存内容',
+      clearAll: '清理全部',
+      clients: '客户端数',
+      commandStats: '命令统计',
+      keyCount: 'Key数量',
+      keyList: '键名列表',
+      maxMemory: '内存配置',
+      memoryInfo: '内存信息',
+      modeStandalone: '单机',
+      networkIo: '网络IO',
+      port: '端口',
+      redisMode: '运行模式',
+      redisVersion: 'Redis版本',
+      remark: '备注',
+      rdbStatus: 'RDB状态',
+      tabManage: '缓存管理',
+      tabMonitor: '监控信息',
+      title: '缓存监控',
+      uptimeDays: '运行时间(天)',
+      usedMemory: '使用内存'
+    },
+    roleDetail: {
+      content: '这个页面仅仅是为了展示匹配到所有多级动态路由',
+      explain:
+        '[...slug] 是匹配所有多级动态路由的语法 以[...any]为格式,匹配到的数据会在useRoute的params中以数组的形式存在'
+    },
+    user: {
+      addUser: '新增用户',
+      editUser: '编辑用户',
+      form: {
+        nickName: '请输入昵称',
+        userEmail: '请输入邮箱',
+        userGender: '请选择性别',
+        userName: '请输入用户名',
+        userPhone: '请输入手机号',
+        userPosition: '请选择用户岗位',
+        userRole: '请选择用户角色',
+        userStatus: '请选择用户状态'
+      },
+      gender: {
+        female: '女',
+        male: '男',
+        unknown: '未知'
+      },
+      nickName: '昵称',
+      title: '用户列表',
+      userEmail: '邮箱',
+      userGender: '性别',
+      userName: '用户名',
+      userPhone: '手机号',
+      userPosition: '用户岗位',
+      userRole: '用户角色',
+      userStatus: '用户状态'
+    },
+    userDetail: {
+      content: `loader 会让网络请求跟懒加载的文件几乎一起发出请求 然后 一边解析懒加载的文件 一边去等待 网络请求
+        待到网络请求完成页面 一起显示 配合react的fiber架构 可以做到 用户如果嫌弃等待时间较长 在等待期间用户可以去
+        切换不同的页面 这是react 框架和react-router数据路由器的优势 而不用非得等到 页面的显现 而不是常规的
+        请求懒加载的文件 - 解析 - 请求懒加载的文件 - 挂载之后去发出网络请求 - 然后渲染页面 - 渲染完成
+        还要自己加loading效果`,
+      explain: '这个页面仅仅是为了展示 react-router-dom 的 loader 的强大能力，数据是随机的对不上很正常'
+    }
+  }
+};
+
+export default page;

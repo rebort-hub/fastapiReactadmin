@@ -1,0 +1,35 @@
+.menu-style-card {
+  --uno: rd-8px p-8px bg-container shadow-sm transition-300;
+}
+
+.menu-style-preview {
+  --uno: h-56px w-88px flex gap-4px rd-6px p-6px bg-layout;
+}
+
+.menu-style-sider {
+  --uno: h-full rd-4px;
+
+  &.light {
+    --uno: w-22px bg-container border border-#e5e6eb;
+  }
+
+  &.dark {
+    --uno: w-22px bg-inverted;
+  }
+
+  &.layout {
+    --uno: w-22px bg-layout border border-#e5e6eb;
+  }
+}
+
+.menu-style-content {
+  --uno: flex-1 flex-col gap-4px;
+
+  .header {
+    --uno: h-10px w-full bg-primary rd-4px;
+  }
+
+  .body {
+    --uno: flex-1 bg-primary-200 rd-4px;
+  }
+}

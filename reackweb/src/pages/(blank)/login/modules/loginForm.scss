@@ -1,0 +1,21 @@
+.login-form {
+  :global(.ant-form-item) {
+    margin-bottom: 20px;
+  }
+
+  :global(.ant-form-item-control-input),
+  :global(.ant-form-item-control-input-content) {
+    width: 100%;
+  }
+
+  :global(.ant-input),
+  :global(.ant-input-affix-wrapper),
+  :global(.ant-input-password) {
+    width: 100%;
+  }
+
+  :global(.ant-btn-block) {
+    height: 44px;
+    font-size: 16px;
+  }
+}

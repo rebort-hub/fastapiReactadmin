@@ -1,0 +1,32 @@
+const route: App.I18n.Schema['translation']['route'] = {
+  '(base)_home': 'Home',
+  '(base)_manage': 'System Manage',
+  '(base)_manage_menu': 'Menu Manage',
+  '(base)_manage_position': 'Position Manage',
+  '(base)_manage_dept': 'Department Manage',
+  '(base)_manage_dict': 'Dictionary Manage',
+  '(base)_manage_cache': 'Cache Monitor',
+  '(base)_manage_online': 'Online Users',
+  '(base)_manage_log': 'Log Manage',
+  '(base)_manage_notice': 'Notice Manage',
+  '(base)_manage_resource': 'Resource Manage',
+  '(base)_manage_server': 'Server Monitor',
+  '(base)_manage_role': 'Role Manage',
+  '(base)_manage_role_[...slug]': 'Role Manage Details',
+  '(base)_manage_user': 'User Manage',
+  '(base)_manage_user_[id]': 'User Detail',
+  '(base)_user-center': 'User Center',
+  '(blank)_login': 'Login',
+  '(blank)_login_code-login': 'Code Login',
+  '(blank)_login_register': 'Register Account',
+  '(blank)_login_reset-pwd': 'Reset Password',
+  '(blank)_login-out': 'Login Out',
+  '403': 'No Permission',
+  '404': 'Page Not Found',
+  '500': 'Server Error',
+  'iframe-page': 'Iframe',
+  notFound: 'Page Not Found',
+  root: 'Home'
+};
+
+export default route;

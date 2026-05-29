@@ -1,0 +1,25 @@
+.theme-schema-segmented {
+  width: 100%;
+  padding: 4px;
+  background: var(--layout-bg-color);
+  border-radius: 8px;
+
+  :global(.ant-segmented-group) {
+    width: 100%;
+  }
+
+  :global(.ant-segmented-item) {
+    flex: 1;
+    border-radius: 6px;
+  }
+
+  :global(.ant-segmented-item-selected) {
+    background: var(--container-bg-color) !important;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 8%);
+  }
+
+  :global(.ant-segmented-thumb) {
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 8%);
+  }
+}

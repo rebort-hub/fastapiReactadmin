@@ -1,0 +1,58 @@
+.sider-inverted-enter {
+  --uno: translate-x-20px opacity-0 h-0;
+}
+
+.sider-inverted-enter-active {
+  --uno: h-22px transition-all-300 translate-x-0 opacity-100;
+}
+.sider-inverted-exit-active {
+  --uno: h-22px translate-x-0 opacity-100;
+}
+
+.sider-inverted-exit-done {
+  --uno: translate-x-20px opacity-0 h-0 transition-all-300;
+}
+
+/* Sider menu: sync ant-menu background with sider container */
+.sider-menu-container--dark,
+.sider-menu-container--layout {
+  background: transparent !important;
+}
+
+.sider-menu-container--dark .simplebar-wrapper,
+.sider-menu-container--dark .simplebar-mask,
+.sider-menu-container--dark .simplebar-offset,
+.sider-menu-container--dark .simplebar-content-wrapper,
+.sider-menu-container--layout .simplebar-wrapper,
+.sider-menu-container--layout .simplebar-mask,
+.sider-menu-container--layout .simplebar-offset,
+.sider-menu-container--layout .simplebar-content-wrapper {
+  background: transparent !important;
+}
+
+.sider-menu-container--dark .ant-menu,
+.sider-menu-container--layout .ant-menu {
+  background: transparent !important;
+}
+
+.sider-menu-container--dark .ant-menu-item,
+.sider-menu-container--dark .ant-menu-submenu-title {
+  color: rgb(255 255 255 / 65%) !important;
+}
+
+.sider-menu-container--dark .ant-menu-item:hover,
+.sider-menu-container--dark .ant-menu-submenu-title:hover {
+  color: rgb(255 255 255 / 88%) !important;
+}
+
+.sider-menu-container--dark .ant-menu-item-selected {
+  color: rgb(255 255 255 / 100%) !important;
+}
+
+.sider-menu-container--dark .ant-menu-submenu-selected > .ant-menu-submenu-title {
+  color: rgb(255 255 255 / 100%) !important;
+}
+
+.sider-menu-container--dark .ant-menu-submenu-arrow {
+  color: rgb(255 255 255 / 65%) !important;
+}
