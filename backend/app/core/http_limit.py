@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from math import ceil
 from typing import NoReturn
 

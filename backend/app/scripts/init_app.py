@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from collections.abc import AsyncGenerator
 from typing import Any
 from fastapi import Depends, FastAPI

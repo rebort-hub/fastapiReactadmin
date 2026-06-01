@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from redis.asyncio.client import Redis
 
 from app.common.enums import RedisInitKeyConfig

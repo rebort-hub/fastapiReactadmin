@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 import enum
 
 from sqlalchemy import String, Text

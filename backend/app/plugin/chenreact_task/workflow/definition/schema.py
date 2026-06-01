@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from typing import Any
 
 from fastapi import Query
@@ -14,8 +16,8 @@ class WorkflowCreateSchema(BaseModel):
     name: str = Field(..., max_length=128, description="流程名称")
     code: str = Field(..., max_length=64, description="流程编码")
     description: str | None = Field(default=None, description="描述")
-    nodes: list | None = Field(default=None, description="Vue Flow nodes")
-    edges: list | None = Field(default=None, description="Vue Flow edges")
+    nodes: list | None = Field(default=None, description="Flow nodes")
+    edges: list | None = Field(default=None, description="Flow edges")
 
 
 class WorkflowUpdateSchema(WorkflowCreateSchema):

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from app.api.v1.chenreact_system.auth.schema import AuthSchema
 from app.core.base_schema import BatchSetAvailable
 from app.core.exceptions import CustomException

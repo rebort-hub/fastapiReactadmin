@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from typing import Any, Generic, TypeVar
 from pydantic import BaseModel
 from sqlalchemy.orm import DeclarativeBase

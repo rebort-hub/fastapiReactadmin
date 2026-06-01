@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from app.config.path_conf import BANNER_FILE
 from app.core.logger import log
 

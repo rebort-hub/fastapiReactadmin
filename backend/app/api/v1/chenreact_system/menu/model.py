@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from typing import TYPE_CHECKING
 
 from sqlalchemy import JSON, Boolean, ForeignKey, Integer, String

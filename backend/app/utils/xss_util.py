@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 import bleach
 
 ALLOWED_TAGS = [

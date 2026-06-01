@@ -88,7 +88,7 @@ pnpm run dev
 ```
 fastapiReactadmin/            # Monorepo 全栈工程
 ├─ backend/              # FastAPI 后端（Pydantic 2.0 + SQLAlchemy + Alembic）
-├─ reackweb/             # Vue3 Web 前端（Ant+ TypeScript）            
+├─ reackweb/             # react Web 前端（Ant+ TypeScript）            
 ├─ docker/               # Docker Compose 一键部署（Nginx + SSL）
 ├─ deploy.sh             # 一键部署脚本
 ```

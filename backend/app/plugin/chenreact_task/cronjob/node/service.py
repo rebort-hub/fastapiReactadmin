@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from apscheduler.jobstores.base import JobLookupError
 
 from app.api.v1.chenreact_system.auth.schema import AuthSchema

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from typing import Annotated
 
 from fastapi import APIRouter, Body, Depends, Path, Request, UploadFile

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 """
 工作流编排子包（plugin.chenreact_task.workflow）：
 

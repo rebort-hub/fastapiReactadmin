@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 import json
 from collections.abc import Callable
 from datetime import datetime

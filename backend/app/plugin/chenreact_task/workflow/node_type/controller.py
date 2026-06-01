@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from typing import Annotated
 
 from fastapi import APIRouter, Body, Depends, Path
@@ -28,7 +30,7 @@ WorkflowNodeTypeRouter = APIRouter(
 @WorkflowNodeTypeRouter.get(
     "/options",
     summary="编排节点类型选项",
-    description="供 Vue Flow 画布左侧拖拽使用（与定时任务 task_node 无关）",
+    description="供 Flow 画布左侧拖拽使用（与定时任务 task_node 无关）",
     response_model=ResponseSchema[list[dict]],
 )
 async def get_workflow_node_type_options_controller(

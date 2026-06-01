@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from urllib.parse import urlparse
 
 from fastapi import Query

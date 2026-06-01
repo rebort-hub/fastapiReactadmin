@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 """
 第三方 OAuth2 登录（微信开放平台扫码、QQ、GitHub、Gitee）。
 

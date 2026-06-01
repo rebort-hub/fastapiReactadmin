@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from pathlib import Path
 
 # 项目根目录
@@ -25,7 +27,7 @@ ENV_DIR = BASE_DIR / "env"
 SCRIPT_DIR: Path = BASE_DIR / "app" / "scripts" / "data"
 
 # 模版文件配置
-TEMPLATE_DIR: Path = BASE_DIR / "app" / "plugin" / "module_generator" / "gencode" / "templates"
+TEMPLATE_DIR: Path = BASE_DIR / "app" / "plugin" / "chenreact_generator" / "gencode" / "templates"
 
 # banner.txt 文件路径
 BANNER_FILE = BASE_DIR / "banner.txt"

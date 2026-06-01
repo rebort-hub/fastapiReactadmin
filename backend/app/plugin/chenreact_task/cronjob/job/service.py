@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from app.api.v1.chenreact_system.auth.schema import AuthSchema
 from app.core.ap_scheduler import SchedulerUtil
 from app.core.exceptions import CustomException

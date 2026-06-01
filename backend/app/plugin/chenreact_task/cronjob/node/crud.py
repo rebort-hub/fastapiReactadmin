@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from collections.abc import Sequence
 from typing import Any
 

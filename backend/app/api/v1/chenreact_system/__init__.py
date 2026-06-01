@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from fastapi import APIRouter
 
 from app.common.response import ResponseSchema as ResponseSchema

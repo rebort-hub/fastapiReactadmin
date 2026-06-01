@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 """
-将 Vue Flow 画布（nodes/edges）转为 DAG，按拓扑顺序用 Prefect 编排执行。
-
+画布（nodes/edges）转为 DAG，按拓扑顺序用 Prefect 编排执行。
 画布节点 `type` 对应表 task_workflow_node_type.code（与定时任务 task_node 无关），
 执行时加载该类型的 `func` 代码块，经 SchedulerUtil._task_wrapper 运行。
 """

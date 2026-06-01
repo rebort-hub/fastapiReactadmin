@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 import jwt
 from fastapi import Form, Request
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm

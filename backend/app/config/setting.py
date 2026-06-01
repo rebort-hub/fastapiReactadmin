@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 import os
 from functools import lru_cache
 from pathlib import Path

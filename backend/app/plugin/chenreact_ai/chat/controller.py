@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from typing import Annotated, Any
 
 from fastapi import APIRouter, Depends, Path

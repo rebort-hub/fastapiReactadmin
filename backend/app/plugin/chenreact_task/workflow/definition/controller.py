@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from typing import Annotated
 
 from fastapi import APIRouter, Body, Depends, Path
@@ -84,7 +86,7 @@ async def get_workflow_list_controller(
 @WorkflowRouter.post(
     "/create",
     summary="创建工作流",
-    description="创建草稿工作流，保存 Vue Flow 画布",
+    description="创建草稿工作流，保存 Flow 画布",
     response_model=ResponseSchema[WorkflowOutSchema],
 )
 async def create_workflow_controller(

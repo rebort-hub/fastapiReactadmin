@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from fastapi import FastAPI
 from redis import exceptions
 from redis.asyncio import Redis

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from pathlib import Path
 from typing import Annotated
 

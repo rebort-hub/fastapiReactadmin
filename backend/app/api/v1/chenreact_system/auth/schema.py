@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from datetime import datetime
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator

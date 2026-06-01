@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from typing import Any
 
 from fastapi import FastAPI, Request, status

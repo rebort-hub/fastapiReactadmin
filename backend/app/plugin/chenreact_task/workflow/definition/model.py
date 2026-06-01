@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# @author: Rebort
 from sqlalchemy import JSON, String, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column
 
@@ -6,7 +8,7 @@ from app.core.base_model import ModelMixin, UserMixin
 
 class WorkflowModel(ModelMixin, UserMixin):
     """
-    工作流定义：Vue Flow 画布序列化 + Prefect 运行时执行
+    工作流定义：Flow 画布序列化 + Prefect 运行时执行
     """
 
     __tablename__: str = "task_workflow"
@@ -21,5 +23,5 @@ class WorkflowModel(ModelMixin, UserMixin):
         default="draft",
         comment="流程状态: draft/published/archived",
     )
-    nodes: Mapped[list | None] = mapped_column(JSON, nullable=True, comment="Vue Flow nodes JSON")
-    edges: Mapped[list | None] = mapped_column(JSON, nullable=True, comment="Vue Flow edges JSON")
+    nodes: Mapped[list | None] = mapped_column(JSON, nullable=True, comment="Flow nodes JSON")
+    edges: Mapped[list | None] = mapped_column(JSON, nullable=True, comment="Flow edges JSON")
