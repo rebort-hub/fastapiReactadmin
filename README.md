@@ -112,10 +112,15 @@ fastapiReactadmin/            # Monorepo 全栈工程
 
 
 ## 👥 社区与支持
+### QQ群
+<img src="reackweb/public/group.jpg" width="200" alt="QQ群" />
 
-| QQ群                                  | 赞赏支持 |
-|--------------------------------------| -------- |
-| ![QQ群二维码](reackweb/public/group.jpg) | ![微信支付](reackweb/public/wechatPay.jpg) | ![微信群](reackweb/public/wechaPay.jpg)
+### 微信群
+<img src="reackweb/public/wechaPay.jpg" width="200" alt="QQ群" />
+
+### 打赏作者，可以请作者喝杯咖啡，你的鼓励将是更新最大的动力
+<img src="reackweb/public/wechatPay.jpg" width="200" alt="wx" />
+
 
 > 如果你觉得项目有用，请给一个 ⭐️ Star 支持！
 [![Stargazers over time](https://starchart.cc/rebort-hub/fastapiReactadmin.svg?variant=adaptive)](https://starchart.cc/rebort-hub/fastapiReactadmin)
