@@ -14,10 +14,6 @@ docker/
 │   │   └── .gitkeep        # 保留目录结构
 │   ├── web/                # 前端静态文件（放置 dist/ 后部署）
 │   │   └── .gitkeep
-│   ├── app/                # 移动端 H5 静态文件（放置 dist/ 后部署，按需启用）
-│   │   └── .gitkeep
-│   └── docs/               # 文档网站静态文件（放置 dist/ 后部署，按需启用）
-│       └── .gitkeep
 ├── mysql/                  # MySQL 持久化目录
 │   └── .gitkeep            # 容器运行后自动产生数据文件
 ├── redis/                  # Redis 持久化目录
@@ -81,7 +77,11 @@ docker/
 在项目根目录执行：
 
 ```bash
+# 注意，默认跳过了前端构建，需要本地将前端构建dist放在docker目录下的nginx目录web目录下
 ./deploy.sh
+
+# 完整部署，构建前端
+./deploy.sh --build-frontend
 ```
 
 脚本会自动执行：检查依赖 → 创建目录 → 停止旧容器 → 更新代码 → 构建镜像 → 启动容器 → 验证部署 → 清理旧资源。

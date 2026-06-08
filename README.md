@@ -7,13 +7,10 @@
      <p>基于 <b>FastAPI + React19 + TypeScript</b> 的全栈快速开发平台，一站式交付，简单高效，开箱即用</p>
      <p align="center">
           <a href="https://github.com/rebort-hub/fastapiReactadmin" target="_blank">
-               <img src="https://github.com/rebort-hub/fastapiReactadmin/badge/star.svg?theme=dark" alt="Github Stars">
-          </a>
-          <a href="https://github.com/rebort-hub/fastapiReactadmin" target="_blank">
-               <img src="https://img.shields.io/github/stars/fastapiReactadmin/fastapireactadmin?style=social" alt="GitHub Stars">
-          </a>
+				<img src="https://img.shields.io/github/stars/rebort-hub/fastapiReactadmin?style=social" alt="GitHub Stars">
+		  </a>
           <a href="https://github.com/rebort-hub/fastapiReactadmin/forks" target="_blank">
-               <img src="https://img.shields.io/github/forks/fastapireactadmin/fastapireactadmin?style=social" alt="GitHub Forks">
+               <img src="https://img.shields.io/github/forks/fastapiReactadmin/fastapiReactadmin?style=social" alt="GitHub Forks">
           </a>
           <br>
           <a href="https://github.com/rebort-hub/fastapiReactadmin/blob/master/LICENSE" target="_blank">
@@ -121,6 +118,7 @@ fastapiReactadmin/            # Monorepo 全栈工程
 | ![QQ群二维码](reackweb/public/group.jpg) | ![微信支付](reackweb/public/wechatPay.jpg) | ![微信群](reackweb/public/wechaPay.jpg)
 
 > 如果你觉得项目有用，请给一个 ⭐️ Star 支持！
+[![Stargazers over time](https://starchart.cc/rebort-hub/fastapiReactadmin.svg?variant=adaptive)](https://starchart.cc/rebort-hub/fastapiReactadmin)
 
 ## 🙏 鸣谢
 
