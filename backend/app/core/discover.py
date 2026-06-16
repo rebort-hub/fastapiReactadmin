@@ -2,25 +2,6 @@
 # @author: Rebort
 """
 简化的动态路由发现与注册
-
-目录与命名规范（不满足则无法注册或导入失败）：
-- 插件必须放在 ``app/plugin`` 下，且**顶级目录名**必须以 ``chenreact_`` 开头，例如
-
-  ``chenreact_example``、``chenreact_yourfeature``（扫描模式：``chenreact_*/**/controller.py``）。
-
-- 控制器文件名必须为 ``controller.py``（大小写敏感，Linux 上 ``Controller.py`` 无效）。
-
-- 从 ``chenreact_xxx`` 到 ``controller.py`` 的**每一级目录名**须为合法 Python 标识符
-
- （仅字母数字下划线、不以数字开头；不要使用中划线、空格、中文目录名等）。
-
-- 每一级目录应可作为包导入：通常需有 ``__init__.py``（或符合 namespace package 规则）。
-
-- 在 ``controller.py`` 的**模块顶层**定义 ``APIRouter`` 实例并赋值给变量
-
-（如 ``DemoRouter = APIRouter(...)``）；定义在函数内部的 router **不会被**扫描到。
-
-路由前缀：顶级目录 ``chenreact_xxx`` 映射为容器前缀 ``/xxx``（去掉前缀 ``chenreact_``）。
 """
 
 # 标准库导入
