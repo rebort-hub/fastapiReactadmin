@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 # @author: rebort
-
 from typing import Annotated
 from fastapi import APIRouter, Body, Depends, Path
 from fastapi.responses import JSONResponse
